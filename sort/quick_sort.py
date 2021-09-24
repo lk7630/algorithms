@@ -25,4 +25,8 @@ if __name__=="__main__":
     arr_input=input("Type in the array:\n").split()
     arr=[int(x) for x in arr_input]
     print("Array sorted by quick sort:")
+<<<<<<< HEAD
     print(quick_sort(arr,0,len(arr)-1))
+=======
+    quick_sort(arr,0,len(arr)-1)
+>>>>>>> origin
